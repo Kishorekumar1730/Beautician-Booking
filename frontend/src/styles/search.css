@@ -1,0 +1,94 @@
+.search-page {
+  padding: 20px;
+}
+
+.search-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.search-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.search-select,
+.search-date {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.search-button {
+  background-color: #ff69b4;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.search-button:hover {
+  background-color: #e85a9b;
+}
+
+.search-link {
+  color: #8a2be2;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.search-link:hover {
+  text-decoration: underline;
+}
+
+.search-results {
+  margin-top: 20px;
+}
+
+.search-section {
+  background: #fff5f9;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 15px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.beautician-name {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.time-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.time-chip {
+  background-color: #ffe0ec;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #d63384;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.time-chip:hover {
+  background-color: #ffd6e9;
+}
+
+.muted {
+  color: #888;
+  font-size: 0.9rem;
+}
